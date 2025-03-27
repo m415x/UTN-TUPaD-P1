@@ -148,7 +148,7 @@ _Actividades:_
 
 2. Realizar la siguiente actividad:
 
-   - Crear un repositorio
+   - Crear un repositorio <https://github.com/m415x/UTN-TUPaD-P1-TP2-A2>
 
      - Dale un nombre al repositorio.
      - Elije el repositorio sea público.
@@ -168,7 +168,7 @@ _Actividades:_
 
 3. Realizar la siguiente actividad:
 
-   - Paso 1: Crear un repositorio en GitHub
+   - Paso 1: Crear un repositorio en GitHub <https://github.com/m415x/UTN-TUPaD-P1-TP2-A3-conflict-exercise>
 
      - Ve a GitHub e inicia sesión en tu cuenta.
      - Haz clic en el botón "New" o "Create repository" para crear un nuevo repositorio.
@@ -179,18 +179,18 @@ _Actividades:_
 
    - Paso 2: Clonar el repositorio a tu máquina local
 
-     - Copia la URL del repositorio <https://github.com/user-name/conflict-exercise.git>.
+     - Copia la URL del repositorio <https://github.com/m415x/UTN-TUPaD-P1-TP2-A3-conflict-exercise>.
      - Abre la terminal o línea de comandos en tu máquina.
      - Clona el repositorio usando el comando:
 
        ```bash
-       git clone https://github.com/user-name/conflict-exercise.git
+       git clone https://github.com/m415x/UTN-TUPaD-P1-TP2-A3-conflict-exercise
        ```
 
      - Entra en el directorio del repositorio:
 
        ```bash
-       cd conflict-exercise
+       cd UTN-TUPaD-P1-TP2-A3-conflict-exercise
        ```
 
    - Paso 3: Crear una nueva rama y editar un archivo
