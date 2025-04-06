@@ -316,3 +316,6 @@ match opcion:
 
         else:
             print("Hemisferio no válido. Debe ser N o S.")
+
+    case _:
+        print("Opción no válida. Por favor, elija un número del 1 al 10.")
