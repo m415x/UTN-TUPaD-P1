@@ -1,7 +1,6 @@
 .vscode
 p1-env/
+utilidades/
 
-TP-01_resuelto.ipynb
+*_resuelto.ipynb
 TP-02_resuelto.pdf
-TP-03_resuelto.ipynb
-TP-04_resuelto.ipynb
