@@ -1,6 +1,7 @@
 # === Importaciones ===
 
 from math import pi
+from utilidades.funciones import leer_entero_validado
 
 # === Definición de funciones ===
 
@@ -136,7 +137,7 @@ def calcular_promedio(a, b, c):
 
 if __name__ == "__main__":
     # Solicitar al usuario que elija una opción del menú.
-    opcion = int(input("Elija un ejercicio (1 al 10) para ejecutar: "))
+    opcion = leer_entero_validado("Elija un ejercicio (1 al 10) para ejecutar", 1, 10)
 
     match opcion:
         case 1:
@@ -192,12 +193,14 @@ if __name__ == "__main__":
             operaciones = operaciones_basicas(a, b)
 
             print("Resultados de las operaciones básicas:")
-            print(f"""
+            print(
+                f"""
                     Suma: {a} + {b} = {operaciones[0]}
                     Resta: {a} - {b} = {operaciones[1]}
                     Multiplicación: {a} * {b} = {operaciones[2]}
                     División: {a} / {b} = {operaciones[3]}
-                """)
+                """
+            )
 
         case 8:
             peso = input("Ingresa tu peso en kg: ")
